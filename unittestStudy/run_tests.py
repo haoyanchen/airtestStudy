@@ -16,3 +16,6 @@ if __name__ == '__main__':
     runner = HTMLTestRunner(stream=fp, title="测试报告（自定义）", description="描述内容（自定义）")
     runner.run(suits)
     fp.close()
+
+
+
